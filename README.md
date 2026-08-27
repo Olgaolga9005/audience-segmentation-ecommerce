@@ -124,7 +124,7 @@ The final export (`customer_rfm_segments.csv`) also includes `TotalQuantity`, `C
 
 ## How to Reproduce
 
-1. Download the [Online Retail Data Set]((https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) from Kaggle and save it as `data/online_retail.csv`.
+1. Download the [Online Retail Data Set](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset) from Kaggle and save it as `data/online_retail.csv`.
 2. Install dependencies: `pip install pandas plotly`
 3. Run `notebooks/01_data_cleaning_eda.ipynb` top to bottom — produces `data/online_retail_clean.csv`.
 4. Run `notebooks/02_frm_score.ipynb` top to bottom — produces `data/customer_rfm_segments.csv`.
