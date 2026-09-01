@@ -128,4 +128,4 @@ The final export (`customer_rfm_segments.csv`) also includes `TotalQuantity`, `C
 2. Install dependencies: `pip install pandas plotly`
 3. Run `notebooks/01_data_cleaning_eda.ipynb` top to bottom — produces `data/online_retail_clean.csv`.
 4. Run `notebooks/02_frm_score.ipynb` top to bottom — produces `data/customer_rfm_segments.csv`.
-5. Open `dashboard/Audience_Segmentation_Report.pbix` in Power BI Desktop and point its data source to `data/customer_rfm_segments.csv`.
+5. Open `dashboard/audience_segmentation_dashboard.pbix` in Power BI Desktop and point its data source to `data/customer_rfm_segments.csv`.
